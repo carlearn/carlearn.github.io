@@ -1,9 +1,9 @@
 # Site settings
-author: Carrie L
+author: Carrie Liu
 title: My Data Science Journal
 header-img: img/home-bg.png
 email: xl309@georgetown.edu
-copyright_name: Carrie L
+copyright_name: Carrie Liu
 description: > # this means to ignore newlines until "baseurl:"
   Today is a gift; that is why it is called Present.
 baseurl: "" # the subpath of your site, e.g. /blog
