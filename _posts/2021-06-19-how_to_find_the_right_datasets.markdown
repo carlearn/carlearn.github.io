@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to Find the Right Datasets"
-date:       2021-06-19 12:22:35 +0000
+date:       2021-06-19 08:22:35 -0400
 permalink:  how_to_find_the_right_datasets
 ---
 
@@ -131,4 +131,4 @@ tmdb_data
 **9. Upon the tmdbdata is cleaned, we can combine IMDb datasets on identical movie ID to get the crew details.** 
 
 
- **Finding the right datasets is the first but very important step of data analysis. API is a very useful tool to help you get customized and most up-to-date information for further exploratory data analysis. **
+** Finding the right datasets is the first but very important step of data analysis. API is a very useful tool to help you get customized and most up-to-date information for further exploratory data analysis. **
