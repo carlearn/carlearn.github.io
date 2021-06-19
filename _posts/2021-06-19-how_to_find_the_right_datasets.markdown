@@ -123,10 +123,6 @@ tmdb_data
 
 **8. Select the necessary columns and export the raw data into csv file**
 
-****
-`tmdb_data.to_csv('tmdb_data.csv', index=False)`
-****
-
 
 **9. Upon the tmdbdata is cleaned, we can combine IMDb datasets on identical movie ID to get the crew details.** 
 
