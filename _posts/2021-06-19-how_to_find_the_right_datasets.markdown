@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "How to Find the Right Datasets"
+title:      "How to Find the Datasets for Movie Analysis"
 date:       2021-06-19 08:22:35 -0400
 permalink:  how_to_find_the_right_datasets
 ---
