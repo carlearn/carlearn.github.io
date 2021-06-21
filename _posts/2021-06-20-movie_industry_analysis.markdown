@@ -139,30 +139,30 @@ df_4 = pd.merge(df_tmdb, df_imdb_crew.rename(columns={'tconst': 'imdb_id'}), on=
 
 Most Profitable Genres of Movies
 
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/profit_by_genres.png)
+![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/profit_by_genres.png)
 
 
 Most Popular Genres of Movies
 
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/popularity_by_genres.png)
+![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/popularity_by_genres.png)
 
 
 #### When is the best time to release films?
 
 Seasonality of Film Release
 
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/seasonality_by_genres.png)
+![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/seasonality_by_genres.png)
 
 
 #### Who are the directors and actors to consider for the new film?
 
 Top 5 Directors
 
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/top_5_directors.png)
+![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/top_5_directors.png)
 
 Top 5 Actors
 
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/top_5_actors.png)
+![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/top_5_actors.png)
 
 
 ### Recommendation
