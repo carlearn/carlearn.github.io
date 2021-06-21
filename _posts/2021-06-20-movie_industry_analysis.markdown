@@ -6,7 +6,7 @@ permalink:  movie_industry_analysis
 ---
 
 
-Most big companies are creating original video contents recently. Microsoft wants to open a new movie studio and join the game of making movies. Our team is charged with data analysis on the movie industry. The review period is 2010 - 2019, a decade pre-pandemic.
+Most big companies are creating original video contents recently. Microsoft wants to launch a new movie studio and join the game of making movies. Our team is charged with data analysis on the movie industry. The review period is 2010 - 2019, a decade pre-pandemic.
 
 ## Objective
 
@@ -182,7 +182,7 @@ The best crew to hire are determined by movie genres.
 
 ## Future Work
 
-The analysis is based on the movie data on TMDb and IMDb for the period between 2010 and 2019 (i.e. pre-pandemic). However, the pandemic has changed the movie industry and especially the movie viewing habits of audience. A new studio will face many challenges:
+The analysis is based on the movie data on TMDb and IMDb for the period between 2010 and 2019 (i.e. pre-pandemic). However, the pandemic has changed the movie industry and especially the movie viewing habits of audience. A new studio will face the following challenges:
 
 **1. Data source:**
 
