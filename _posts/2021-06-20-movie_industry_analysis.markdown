@@ -8,20 +8,20 @@ permalink:  movie_industry_analysis
 
 Most big companies are creating original video contents recently. Microsoft wants to open a new movie studio and join the game of making movies. Our team is charged with data analysis on the movie industry. The review period is 2010 - 2019, a decade pre-pandemic.
 
-### Objective
+## Objective
 
 * What types of films are doing best at the box office?
 * When is the best time to release films?
 * Who are the directors and actors to consider for the new film?
 * What are the challenges the new studio will face?
 
-### Approach
+## Approach
 
 **1. Datasource:**
 
 First, we will use TMDb API to retrieve movie details data including: 'id', 'imdb_id', 'original_title', 'title', 'genres', 'release_date', 'budget', 'revenue', 'popularity', 'vote_average', 'vote_count', and 'runtime'. Next, we will join the IMDb datasets provided to get the crew (including directors and actors) details.
 
-API: Please refer to my blog for more details. [How to Find the Right Datasets](https://carlearn.github.io/how_to_find_the_right_datasets)
+API: Please refer to the blog: [How to Find the Right Datasets](https://carlearn.github.io/how_to_find_the_right_datasets).
 
 Join IMDb datasets:
 
@@ -133,39 +133,39 @@ df_4 = pd.merge(df_tmdb, df_imdb_crew.rename(columns={'tconst': 'imdb_id'}), on=
 **4. Summarize the recommendations, challenges and next steps**
 
 
-### Summary (Data Visualization)
+## Summary (Data Visualization)
 
 #### What types of films are doing best at the box office?
 
-Most Profitable Genres of Movies
+> Most Profitable Genres of Movies
 
 ![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/profit_by_genres.png)
 
 
-Most Popular Genres of Movies
+> Most Popular Genres of Movies
 
 ![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/popularity_by_genres.png)
 
 
 #### When is the best time to release films?
 
-Seasonality of Film Release
+> Seasonality of Film Release
 
 ![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/seasonality_by_genres.png)
 
 
 #### Who are the directors and actors to consider for the new film?
 
-Top 5 Directors
+> Top 5 Directors
 
 ![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/top_5_directors.png)
 
-Top 5 Actors
+> Top 5 Actors
 
 ![](https://raw.githubusercontent.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/master/images/top_5_actors.png)
 
 
-### Recommendation
+## Recommendation
 
 **1. Genres**
 
@@ -180,7 +180,7 @@ The best months to release these genres of movies should be: June, November/Dece
 The best crew to hire are determined by movie genres.
 
 
-### Future Work
+## Future Work
 
 The analysis is based on the movie data on TMDb and IMDb for the period between 2010 and 2019 (i.e. pre-pandemic). However, the pandemic has changed the movie industry and especially the movie viewing habits of audience. A new studio will face many challenges:
 
