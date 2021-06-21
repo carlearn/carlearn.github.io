@@ -21,7 +21,7 @@ Most big companies are creating original video contents recently. Microsoft want
 
 First, we will use TMDb API to retrieve movie details data including: 'id', 'imdb_id', 'original_title', 'title', 'genres', 'release_date', 'budget', 'revenue', 'popularity', 'vote_average', 'vote_count', and 'runtime'. Next, we will join the IMDb datasets provided to get the crew (including directors and actors) details.
 
-API: Please refer to the blog: [How to Find the Right Datasets](https://carlearn.github.io/how_to_find_the_right_datasets).
+API: Please refer to the blog: [How to Find the Datasets for Movie Analysis](https://carlearn.github.io/how_to_find_the_datasets_for_movie_analysis).
 
 Join IMDb datasets:
 
