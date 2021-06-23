@@ -68,12 +68,10 @@ def split_genres(data):
 		
 df_tmdb.genres = df_tmdb.genres.apply(split_genres)
 
-genres_list = df_tmdb['genres'].apply(pd.Series).stack()
-genres_list.index = genres_list.index.droplevel(-1)
+genres_list = df_tmdb['genres'].explode()
 genres_list.name = 'genres'
 del df_tmdb['genres']
 df_tmdb = df_tmdb.join(genres_list)
-
 ```
 
 * convert money values into million: including columns 'revenue' and 'budget'
@@ -110,6 +108,9 @@ df_1.columns = ['avg_profit','total_profit']
 * use groupby function to analyze the seasonality of respective movie genres
 
 ```
+
+month_column =  df_tmdb['release_date'].dt.month_name()
+df_tmdb.insert(5,'release_month', month_column)
 
 month_index = ['January', 'February', 'March', 'April', 'May', 'June',
                'July', 'August', 'September', 'October', 'November', 'December']
